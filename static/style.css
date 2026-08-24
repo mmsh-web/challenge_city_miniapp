@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#e9eef4;
+
+    font-family: "Vazirmatn", sans-serif;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:auto;
+    
+    flex-direction: column;
+}
+
+.card{
+    font-family: "Vazirmatn", sans-serif;
+
+    width:90%;
+
+    max-width:400px;
+
+    background:rgba(255, 194, 137, 0.858);
+
+    padding:40px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.15);
+
+    border-color: #555;
+    transition: all ease-in-out 0.5s;
+    margin-bottom: 5px;
+    flex-direction: column;
+
+}
+
+
+.cardp{
+    font-family: "Vazirmatn", sans-serif;
+
+    width:90%;
+
+    max-width:400px;
+
+    background:rgba(193, 193, 193, 0.632);
+
+
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 10px 30px rgba(215, 215, 215, 0.15);
+
+    border-color: #555;
+    transition: all ease-in-out 0.5s;
+    margin-bottom: 5px;
+    flex-direction: column;
+
+}
+
+.card:hover{
+    transform: translateY(10px);
+}
+
+h1{
+
+    color:orange;
+
+    margin-bottom:20px;
+    font-size: 40;
+
+}
+
+p{
+
+    color:#000000;
+
+
+    font-size: 190%;
+
+}
+
+h2{
+
+    margin-bottom:30px;
+
+}
+
+.b {
+    font-family: "Vazirmatn", sans-serif;
+    background: rgb(115, 255, 197);
+    color: rgb(61, 61, 61);
+    border: none;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    text-decoration: none;
+
+    display: block;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.b:hover{
+
+    background:rgb(51, 255, 122);
+
+    transform:scale(1.05);
+
+}
+
+img{
+    transition: all 0.3s ease-out;
+}
+
+img:hover{
+    transform: scale(150%) rotate(20deg);
+    margin: 50px;
+
+}
+@keyframes blink {
+
+    0%{
+        transform: scale(1);
+        opacity:1;
+    }
+
+    50%{
+        transform: scale(1.08);
+        opacity:.6;
+    }
+
+    100%{
+        transform: scale(1);
+        opacity:1;
+    }
+
+}
+.pulse{
+    animation: blink 1s ease;
+    
+}
+
+
+
